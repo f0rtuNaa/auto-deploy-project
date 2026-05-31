@@ -11,7 +11,7 @@ COMPANIES = eval(config['Companies']['COMPANIES'])
 today = datetime.today()
 yesterday = today - timedelta(days=1)
 
-if 1 <= today.weekday() -1  <= 5:
+if 1 <= today.weekday() <= 5:
     d = {
         'dt': [yesterday.strftime('%d/%m/%Y')] * len(COMPANIES) * 2,
         'company': COMPANIES * 2,
