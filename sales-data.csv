@@ -1,0 +1,11 @@
+dt,company,transaction_type,amount
+30/05/2026,TSLA,buy,506
+30/05/2026,PFE,buy,142
+30/05/2026,F,buy,727
+30/05/2026,INTC,buy,674
+30/05/2026,BAC,buy,118
+30/05/2026,TSLA,sell,298
+30/05/2026,PFE,sell,443
+30/05/2026,F,sell,842
+30/05/2026,INTC,sell,900
+30/05/2026,BAC,sell,17
