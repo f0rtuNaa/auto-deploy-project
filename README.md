@@ -64,7 +64,7 @@ CREATE TABLE public.sales (
 
 ```bash
 git clone https://github.com/f0rtuNaa/auto-deploy-project.git
-cd retail-automation
+cd auto-deploy-project
 ```
 
 ### 2. Создать и активировать виртуальное окружение
