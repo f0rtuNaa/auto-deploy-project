@@ -12,6 +12,7 @@ class PGDatabase:
             database=database,
             user=user,
             password=password,
+            options="-c client_encoding=UTF8",
         )
 
         self.cursor = self.connection.cursor()
