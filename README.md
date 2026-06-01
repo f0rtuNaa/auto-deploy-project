@@ -63,7 +63,7 @@ CREATE TABLE public.sales (
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone https://github.com/your-username/retail-automation.git
+git clone https://github.com/f0rtuNaa/auto-deploy-project.git
 cd retail-automation
 ```
 
