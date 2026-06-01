@@ -66,26 +66,13 @@ CREATE TABLE public.sales (
 git clone https://github.com/f0rtuNaa/auto-deploy-project.git
 cd auto-deploy-project
 ```
-
-### 2. Создать и активировать виртуальное окружение
-
-```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Linux / macOS
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Установить зависимости
+### 2. Установить зависимости
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Создать базу данных
+### 3. Создать базу данных
 
 Подключись к PostgreSQL и выполни:
 
@@ -95,7 +82,7 @@ CREATE DATABASE salesdata;
 
 Затем применить DDL.
 
-### 5. Настроить config.ini
+### 4. Настроить config.ini
 
 Открыть `config.ini` и прописать свои параметры подключения:
 
@@ -116,7 +103,7 @@ SHOPS = {1: 3, 2: 2, 11: 3}
 
 > Сохранить `config.ini` в кодировке **UTF-8**.
 
-### 6. Запустить вручную
+### 5. Запустить вручную
 
 ```bash
 python generate-sales-data.py
@@ -125,7 +112,7 @@ python generate-sales-data.py
 Скрипт создаст CSV-файлы в папке `data/` и загрузит их в БД.  
 В воскресенье генерация автоматически пропускается.
 
-### 7. Автоматизация — Планировщик Windows
+### 6. Автоматизация — Планировщик Windows
 
 Сначала необходимо открыть файл `start.bat`, затем прописать полный путь интерпретатора проекта и путь исполняемого файла.
 Содержимое `start.bat`:
