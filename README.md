@@ -118,7 +118,7 @@ python generate-sales-data.py
 Содержимое `start.bat`:
 ```bat
 chcp 65001
-C:\path\to\venv\Scripts\python.exe C:\path\to\generate-sales-data.py
+C:\Users\Владислав\PycharmProjects\AD\venv/Scripts\python.exe  C:\Users\Владислав\PycharmProjects\AD\generate-sales-data.py
 ```
 Далее для настройки автоматизации выполнить следующие действия:
 
